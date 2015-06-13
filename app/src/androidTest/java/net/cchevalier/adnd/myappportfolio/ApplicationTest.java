@@ -1,4 +1,4 @@
-package net.cchevalier.adnd.myappportofolio;
+package net.cchevalier.adnd.myappportfolio;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

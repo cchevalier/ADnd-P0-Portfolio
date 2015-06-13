@@ -1,4 +1,4 @@
-package net.cchevalier.adnd.myappportofolio;
+package net.cchevalier.adnd.myappportfolio;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;

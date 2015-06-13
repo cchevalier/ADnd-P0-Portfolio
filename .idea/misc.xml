@@ -10,6 +10,12 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
@@ -34,6 +40,9 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\cch\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="masterDetails">
     <states>
