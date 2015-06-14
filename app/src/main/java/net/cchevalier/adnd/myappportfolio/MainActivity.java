@@ -6,10 +6,13 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    private static final String TAG = "Folio";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +36,7 @@ public class MainActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
-            Log.i("folio", "About was selected");
+            Log.i(TAG, "About was selected");
             Toast about = Toast.makeText(getBaseContext(), "Portfolio App developed \nfor the Android Developer \nNanoDegree from Udacity. \n(c) CChevalier, 2015", Toast.LENGTH_LONG);
             about.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
             about.show();
@@ -41,5 +44,41 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void startSpotify(View v) {
+        Log.i(TAG, "launching Spotify App");
+        displayLaunchToast("Spotify");
+    }
+
+    public void startScores(View v) {
+        Log.i(TAG, "launching Scores App");
+        displayLaunchToast("Scores");
+    }
+
+    public void startLibrary(View v) {
+        Log.i(TAG, "launching Library App");
+        displayLaunchToast("Library");
+    }
+
+    public void startBuild(View v) {
+        Log.i(TAG, "launching Build It Bigger App");
+        displayLaunchToast("Build It Bigger");
+    }
+
+    public void startXyzReader(View v) {
+        Log.i(TAG, "launching Build It Bigger App");
+        displayLaunchToast("XYZ Reader");
+    }
+
+    public void startCapstoneApp(View v) {
+        Log.i(TAG, "launching Capstone App");
+        displayLaunchToast("Capstone");
+    }
+
+    public void displayLaunchToast(String appName){
+        Toast toast = Toast.makeText(getBaseContext(), "This button will launch my " + appName + " app!", Toast.LENGTH_SHORT);
+        toast.show();
+
     }
 }

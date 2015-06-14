@@ -16,6 +16,7 @@
     <Button
         android:id="@+id/button1"
         android:text="@string/app1"
+        android:onClick="startSpotify"
         android:layout_below="@+id/textView"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
@@ -27,6 +28,7 @@
     <Button
         android:id="@+id/button2"
         android:text="@string/app2"
+        android:onClick="startScores"
         android:layout_below="@+id/button1"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
@@ -38,6 +40,7 @@
     <Button
         android:id="@+id/button3"
         android:text="@string/app3"
+        android:onClick="startLibrary"
         android:layout_below="@+id/button2"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
@@ -49,6 +52,7 @@
     <Button
         android:id="@+id/button4"
         android:text="@string/app4"
+        android:onClick="startBuild"
         android:layout_below="@+id/button3"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
@@ -60,6 +64,7 @@
     <Button
         android:id="@+id/button5"
         android:text="@string/app5"
+        android:onClick="startXyzReader"
         android:layout_below="@+id/button4"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
@@ -71,6 +76,7 @@
     <Button
         android:id="@+id/button6"
         android:text="@string/app6"
+        android:onClick="startCapstoneApp"
         android:layout_below="@+id/button5"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
