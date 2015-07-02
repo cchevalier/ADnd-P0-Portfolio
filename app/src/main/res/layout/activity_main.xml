@@ -35,7 +35,7 @@
             <Button
                 android:id="@+id/button1"
                 android:text="@string/app1"
-                android:onClick="startSpotify"
+                android:onClick="displayAlternativeToast"
                 android:layout_width="260dp"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
@@ -46,7 +46,7 @@
             <Button
                 android:id="@+id/button2"
                 android:text="@string/app2"
-                android:onClick="startScores"
+                android:onClick="displayAlternativeToast"
                 android:layout_width="260dp"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
@@ -57,7 +57,7 @@
             <Button
                 android:id="@+id/button3"
                 android:text="@string/app3"
-                android:onClick="startLibrary"
+                android:onClick="displayAlternativeToast"
                 android:layout_width="260dp"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
@@ -68,7 +68,7 @@
             <Button
                 android:id="@+id/button4"
                 android:text="@string/app4"
-                android:onClick="startBuild"
+                android:onClick="displayAlternativeToast"
                 android:layout_width="260dp"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
@@ -79,7 +79,7 @@
             <Button
                 android:id="@+id/button5"
                 android:text="@string/app5"
-                android:onClick="startXyzReader"
+                android:onClick="displayAlternativeToast"
                 android:layout_width="260dp"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
@@ -90,7 +90,7 @@
             <Button
                 android:id="@+id/button6"
                 android:text="@string/app6"
-                android:onClick="startCapstoneApp"
+                android:onClick="displayAlternativeToast"
                 android:layout_width="260dp"
                 android:layout_height="wrap_content"
                 android:padding="20dp"

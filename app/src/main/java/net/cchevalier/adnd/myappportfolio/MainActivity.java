@@ -1,12 +1,14 @@
 package net.cchevalier.adnd.myappportfolio;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 
@@ -79,6 +81,23 @@ public class MainActivity extends ActionBarActivity {
     public void displayLaunchToast(String appName){
         Toast toast = Toast.makeText(getBaseContext(), "This button will launch my " + appName + " app!", Toast.LENGTH_SHORT);
         toast.show();
+    }
 
+    /*
+    * Alternative Common displayToast method using the name of the used button (as view)
+    * */
+    public void displayAlternativeToast(View view) {
+
+        Button button = (Button) view;
+
+        String buttonText = (String) button.getText();
+
+        Context context = getApplicationContext();
+        CharSequence text = getString(R.string.open_app)
+                + " " + buttonText;
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
     }
 }
