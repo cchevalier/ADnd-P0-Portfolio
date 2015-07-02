@@ -6,7 +6,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:background="#ff6bb7f0"
+    android:background="@color/uda_blue"
     tools:context=".MainActivity">
 
     <TextView
@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:layout_marginBottom="10dp"
-                android:background="#F08C35"
+                android:background="@color/uda_orange"
                 android:layout_gravity="center_horizontal" />
 
             <Button
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:layout_marginBottom="10dp"
-                android:background="#F08C35"
+                android:background="@color/uda_orange"
                 android:layout_gravity="center_horizontal" />
 
             <Button
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:layout_marginBottom="10dp"
-                android:background="#F08C35"
+                android:background="@color/uda_orange"
                 android:layout_gravity="center_horizontal" />
 
             <Button
@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:layout_marginBottom="10dp"
-                android:background="#F08C35"
+                android:background="@color/uda_orange"
                 android:layout_gravity="center_horizontal" />
 
             <Button
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:layout_marginBottom="10dp"
-                android:background="#F08C35"
+                android:background="@color/uda_orange"
                 android:layout_gravity="center_horizontal" />
 
             <Button
@@ -95,7 +95,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:layout_marginBottom="10dp"
-                android:background="#ffee4610"
+                android:background="@color/uda_red"
                 android:layout_gravity="center_horizontal" />
 
         </LinearLayout>
